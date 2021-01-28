@@ -1,0 +1,2 @@
+# JavaProjectTraining
+Workshop trained project
