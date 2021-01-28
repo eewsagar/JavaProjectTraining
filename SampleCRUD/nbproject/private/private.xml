@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/Workshop/Java/SampleCRUD/src/com/main/dto/SampleDTO.java</file>
+            <file>file:/F:/Workshop/Java/SampleCRUD/src/com/main/service/ContactService.java</file>
+            <file>file:/F:/Workshop/Java/SampleCRUD/src/com/main/view/ViewContactFrame.java</file>
+            <file>file:/F:/Workshop/Java/SampleCRUD/src/com/main/view/AddContactFrame.java</file>
+            <file>file:/F:/Workshop/Java/SampleCRUD/src/com/main/model/ContactTableModel.java</file>
+            <file>file:/F:/Workshop/Java/SampleCRUD/src/com/main/dto/ContactDTO.java</file>
+        </group>
+    </open-files>
+</project-private>
