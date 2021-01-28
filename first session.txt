@@ -1,0 +1,75 @@
+SLDC
+Agile??-
+Waterfall?- define requiremnt -> requirment gthering - > doc -> start development - > test-> clint
+monolithic ?  define reuiremnt -> requirment gthering - > doc -> start development - > test-> clint
+microservice? micro level - define reuiremnt -> requirment gthering - > doc -> start development - > test-> clint (models)
+test driven -> developed code -> test -> develop-> test
+vshape-> define reuiremnt -> requirment gthering - > doc -> start development - > test-> clint
+
+scrum?-- details small - 15 min - kal , aj , aj jo b coding  any issue
+sprint? -- module , part of project
+releases? -- every month , 45 day, 15 days
+
+IDE : integreated developement envireonment
+      
+
+1) analysis-- give more
+2) tool
+3) developement - less time
+4) test
+
+java   -- middel
+swing - frnt end developement
+mysql - back end
+
+desktop application
+web appliction
+
+
+
+
+view :  UI
+controller :  controlling
+service :  CRUD (create, Read, Update,delete)
+model  : attributes or entity // not mended
+refactoring :  database connection file
+
+
+
+
+1. make calculutr
+
+30:
+
+class name: camel case
+varibale : small
+method: small camel case
+
+text field : prefix txt
+button : btn
+lbl
+chkbx
+
+
+
+
+library --
+book,student,staff,benches
+book -  id, name, author,isssue by, issue date , till date,renew,
+studnet -  name, roll, class, bookid
+staff -  name, post, salary, timing, id
+benches -  bencheid , status, 
+
+
+school
+money
+shop
+inventory
+car washing center
+ticket booking
+hospital
+
+
+
+sample curd - mvc
+projectdemo student -  direct db connection
