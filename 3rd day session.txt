@@ -1,0 +1,88 @@
+if i register then there is mail and if email is valid.
+message -  notify -- mail api -code is there we have to add in our code.
+
+sms gate way  : mobile register - add the code of api ---
+
+url :  all details of server, your account, authentication, message gateway.
+
+paypal gate
+
+interface : Restfull service is used as a interface.
+   
+billing  company: month bill, register, service, , payment recvied  -- 6- 10 person
++interface+
+payment com pany : eft, check, cash, ecs, credit card , debit card  --- 6 -10 person
+ 
+-----------------
+interface
+
+api - abstrac prgraminig interface
+
+6- 10 person team
+1 manager 
+1 team lead - developer --
+2-3 developer ++
+1 test lead 
+2 -3 tester ++
+1 devop
+1 dba
+
+accenture:  1 dba team- 500 1000 dba 
+2000 compnay - 10 dba
+100000 company - 1000-5000 dba
+deliver head
+vice deliver manager
+.
+.
+.
+ceo
+
+Anlysis
+team allocate
+development
+tester - test case
+environmnet deployed -  local, design time,     test/qc 1, test/qc2,                    mock,              production
+                                unit test        complet/ integration, regression    1 cycle of test        final deploy
+                                basic/funtion
+
+
+
+ticket - defect log - jira,landdesk,hp alm
+
+majesc0 - country financial
+          Utica
+          Max life
+          AIG
+          
+---------------------
+ defect - jira logging
+month bill 10 th of every month
+bill come on 12th of month
+
+tester find issue-> test lead info - > defect log in jira ->id generated - >assign to developer lead -> 
+developer -> analysis  issue- > solve it -> unit test -> doc for changes done -> defect assign to test lead -> tester
+ -> test the defect -> resolve -> closed ticket
+3 -5 days to reolve the tickt
+
+pizza ->order id -> acknoldge-> cook- >counter -> delivery boy ->custromer-> order completed
+
+
+document is must needed.
+test case doc
+chnages doc
+unit test doc 
+
+annnual or six appraisal (increment)
+behaivour, eager to learn,team handling, knwloged bussiness
+
+awards- 2k to 3k
+weeekend  -  sun sat off
+fridays -activity(navrat - 9 days diff color dress)
+year 2 outing 
+team lunch party -every 3 month once
+wfh - 12 13 hr
+company -> 9 working -  1 hr lunch -> 2 chai - 30 min-> 2 hr -> 15 min scrum-> 30 min client ->monthly meeting
+           5-6 hrs working -
+
+
+
