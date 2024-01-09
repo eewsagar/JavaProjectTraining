@@ -7,8 +7,8 @@ import javax.swing.table.TableModel;
 
 public class ContactTableModel implements TableModel { // view of table value
 
-    private String[] columnName = {"ID", "FULL NAMEs","ADDRESS" ,"IS ACTIVE"};
-    private Class[] columnClass = {String.class, String.class,String.class, String.class};
+    private String[] columnName = {"ID", "FULL NAMEs","ADDRESS" ,"EMAIL ID","IS ACTIVE"};
+    private Class[] columnClass = {String.class, String.class,String.class,String.class, String.class};
     ArrayList<ContactDTO> arrayList;
 
     public ContactTableModel(ArrayList<ContactDTO> arrayList) {
@@ -45,6 +45,8 @@ public class ContactTableModel implements TableModel { // view of table value
             case 2:
                 return dTO.getAddress(); // data transfer object
             case 3:
+                return dTO.getEmailid(); // data transfer object
+            case 4:
                 return dTO.getIsActive();
         }
         return null;

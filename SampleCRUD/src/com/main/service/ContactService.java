@@ -10,9 +10,10 @@ import java.util.logging.Logger;
 public class ContactService {
 
     public static Integer saveContact(ContactDTO dTO) {
-        String insertQuery = "INSERT INTO tbl_contact( fullName,address,isActive)VALUES ("
+        String insertQuery = "INSERT INTO tbl_contact( fullName,address,emailid,isActive)VALUES ("
                 + "'" + dTO.getFullName() + "',"
                 + "'" + dTO.getAddress()+ "',"
+                + "'" + dTO.getEmailid()+ "',"
                 + "'" + dTO.getIsActive() + "');";
         System.out.println("insertQuery = " + insertQuery);
 
@@ -30,6 +31,7 @@ public class ContactService {
         String updateQuery = "UPDATE tbl_contact SET "
                 + "fullName = '" + dTO.getFullName() + "',"
                 + "address = '" + dTO.getAddress() + "',"
+                + "emailid = '" + dTO.getEmailid() + "',"
                 + "isActive = '" + dTO.getIsActive() + "'  WHERE id = '" + id + "' ";
         System.out.println("updateQuery = " + updateQuery);
 
@@ -64,6 +66,7 @@ public class ContactService {
                 dTO.setId(executeQuery.getString("id"));
                 dTO.setFullName(executeQuery.getString("fullName"));
                 dTO.setAddress(executeQuery.getString("address"));
+                dTO.setEmailid(executeQuery.getString("emailid"));
                 dTO.setIsActive(executeQuery.getString("isActive"));
                 arrayList.add(dTO);
             }

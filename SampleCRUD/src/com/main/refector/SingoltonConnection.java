@@ -50,7 +50,9 @@ public class SingoltonConnection implements IConstantManager {
 
     public static void main(String[] args) {
         try {
+            System.out.println("hello connection");
             getConnection();
+            
         } catch (Exception e) {
         }
     }

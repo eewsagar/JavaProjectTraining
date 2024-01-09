@@ -8,6 +8,15 @@ public class ContactDTO {
     private String id;
     private String fullName;
     private String Address;
+    private String emailid;
+
+    public String getEmailid() {
+        return emailid;
+    }
+
+    public void setEmailid(String emailid) {
+        this.emailid = emailid;
+    }
 
     public String getAddress() {
         return Address;
